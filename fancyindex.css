@@ -1,0 +1,45 @@
+body,html {
+  background-image: url("spacebackground.gif");
+  color: #fcbf07;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+        font-weight: 300;
+}
+
+a {
+        color: #fcbf07;
+        text-decoration: underline;
+}
+
+a:hover {
+        color: #5764c6;
+        text-decoration: none;
+}
+
+#list {
+        border: none;
+        width: 100%;
+}
+
+th {
+        background: none;
+        padding: 10px 0px 10px 0px;
+}
+
+tr {
+        background-color: transparent;
+}
+
+tr:nth-child(even) {
+        background-color: rgba(252, 191, 7, 0.15);
+}
+
+td {
+        background: none;
+        background-color: transparent;
+}
